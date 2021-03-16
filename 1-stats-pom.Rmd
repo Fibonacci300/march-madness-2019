@@ -9,7 +9,7 @@ library(tidyverse)
 
 Read in the data
 ```{r}
-massey <- read.csv("data/MasseyOrdinals_thru_2019_day_128.csv", stringsAsFactors = FALSE)
+massey <- read.csv("data/MMasseyOrdinals.csv", stringsAsFactors = FALSE)
 #preview
 head(massey)
 tail(massey)
