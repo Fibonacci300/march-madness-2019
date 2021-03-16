@@ -9,8 +9,8 @@ library(tidyverse)
 
 Read in the data
 ```{r}
-reg_season_stats <- read.csv("data/RegularSeasonDetailedResults.csv", stringsAsFactors = FALSE)
-tourney_stats <- read.csv("data/NCAATourneyDetailedResults.csv", stringsAsFactors = FALSE)
+reg_season_stats <- read.csv("data/MRegularSeasonDetailedResults.csv", stringsAsFactors = FALSE)
+tourney_stats <- read.csv("data/MNCAATourneyDetailedResults.csv", stringsAsFactors = FALSE)
 head(reg_season_stats)
 ```
 
